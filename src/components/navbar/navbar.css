@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 2%;
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 0 2px 4px 0 rgba(61, 60, 60, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-left h1 {
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: rgb(38, 37, 37);
+}
+
+.nav-right a {
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: #2c2b2b;
+}

@@ -1,0 +1,43 @@
+.project{
+    height: 100%;
+}
+.cards{
+    align-items: center;
+    justify-content: center;
+    padding-left: 20%;
+}
+.card{
+    background: white;
+    width: 80%;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 15px;
+
+}
+.card img{
+    width: 400px;
+    height: 330px;
+    border-radius: 20px;
+    margin-top: 10px;
+    object-fit: fill;
+    transition: transform 0.3s ease-in-out;
+    
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.paragraph-two{
+    margin-left: 40px;
+}
+.paragraph-two h2{
+    font-size: 25px;
+    margin-left: 15%;
+    color: #312323;
+}
+.paragraph-two p{
+    font-size: 19px;
+    line-height: 25px;
+    max-width: 450px;
+    margin-left: 15%;
+}

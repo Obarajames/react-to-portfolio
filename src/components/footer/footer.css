@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background: rgb(36, 32, 32);
+    height: 100px;
+}
+.footer p{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    
+}
+.footer a{
+    font-size: 30px;
+    margin-left: 20px;
+    color: aliceblue;
+}

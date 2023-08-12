@@ -1,0 +1,31 @@
+.contact{
+    background: whitesmoke;
+    height: 70vh;
+    width: 100%;
+}
+.title{
+    padding-top:  4%;
+    margin-left: 12%;
+}
+.title h3{
+    color: rgb(6, 77, 243);
+    font-size: 26px;
+}
+.title h2{
+    font-size: 29px;
+}
+.contact-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-icon p a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 23px;
+    color: #000;
+}
+.contact-icon p{
+    font-size: 30px;
+    color: rgb(0, 89, 255);
+}

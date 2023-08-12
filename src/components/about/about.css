@@ -1,0 +1,45 @@
+.about{
+    height: 90vh;
+    background: white;
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.task p{
+    font-size: 35px;
+    padding-left: 30px;
+}
+.task h3{
+    font-size: 26px;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.detail .img{
+    width: 500px;
+    height: 400px;
+    background: black;
+    border-radius: 20px;
+}
+.img img{
+    width: 500px;
+    height: 400px;
+    object-fit: fill;
+    border-radius: 20px;
+}
+.paragraph h3{
+    color: rgb(0, 102, 255);
+}
+.paragraph h2{
+    max-width: 460px;
+}
+.paragraph p{
+    max-width: 500px;
+    line-height: 25px;
+    font-size: 16px;
+}
